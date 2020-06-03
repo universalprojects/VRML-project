@@ -1,0 +1,21 @@
+#VRML V2.0 utf8
+#lineset.wrl
+Shape
+{
+geometry IndexedLineSet
+{
+coord Coordinate
+{
+point
+[
+#base of pyramid
+-2 0 0,      # point 0,
+2 3 0,        # point 1,
+] # end point
+} # end coord
+coordIndex
+[
+0,1,-1,  # join points 0 and 1
+]    # end coordIndex
+}  # end geometry
+}  # end shape
